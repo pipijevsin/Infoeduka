@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Infoeduka.Core/Infoeduka.Core.csproj" />
+  <Project Path="Infoeduka.Tests/Infoeduka.Tests.csproj" />
+  <Project Path="Infoeduka/Infoeduka.csproj" />
+</Solution>
