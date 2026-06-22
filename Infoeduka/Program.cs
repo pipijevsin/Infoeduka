@@ -9,7 +9,15 @@ static class Program
     {
         ApplicationConfiguration.Initialize();
         var store = new Store(Path.Combine(AppContext.BaseDirectory, "data.json"));
-        using var login = new LoginForm(store);
-        login.ShowDialog();
+
+        while (true)
+        {
+            using var login = new LoginForm(store);
+            if (login.ShowDialog() != DialogResult.OK)
+                return;
+
+            Application.Run(new MainForm(store));
+            store.Logout();
+        }
     }
 }
