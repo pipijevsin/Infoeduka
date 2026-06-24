@@ -9,3 +9,4 @@ Team: Luka Mamić, Sven Valentić
 ## Features
 
 - Login with email and password
+- Dialogs for adding and editing lecturers and courses
