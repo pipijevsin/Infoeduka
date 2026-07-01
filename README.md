@@ -11,3 +11,4 @@ Team: Luka Mamić, Sven Valentić
 - Login with email and password
 - Main window with courses, notifications and lecturers tabs
 - Dialogs for adding and editing lecturers and courses
+- Notifications with publish and expiry date
