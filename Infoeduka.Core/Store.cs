@@ -247,5 +247,7 @@ public class Store
     {
         if (string.IsNullOrWhiteSpace(title))
             throw new ArgumentException("Title is required.");
+        if (expiryDate.Date < publishDate.Date)
+            throw new ArgumentException("Expiry date cannot be before the publish date.");
     }
 }
