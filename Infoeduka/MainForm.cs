@@ -57,7 +57,8 @@ public class MainForm : Form
             RowHeadersVisible = false,
             MultiSelect = false,
             SelectionMode = DataGridViewSelectionMode.FullRowSelect,
-            AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill
+            AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill,
+            BackgroundColor = SystemColors.Window
         };
     }
 
