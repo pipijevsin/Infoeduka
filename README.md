@@ -12,3 +12,26 @@ Team: Luka Mamić, Sven Valentić
 - Main window with courses, notifications and lecturers tabs
 - Dialogs for adding and editing lecturers and courses
 - Notifications with publish and expiry date
+- Administrator manages everything, lecturer only own courses and notifications
+- Data saved to a JSON file
+
+## Technologies
+
+- C# / .NET 10
+- Windows Forms
+- JSON file storage (System.Text.Json)
+- xUnit
+
+## Run
+
+```
+dotnet run --project Infoeduka
+```
+
+Default administrator: `admin@algebra.hr` / `admin`
+
+## Test
+
+```
+dotnet test
+```
