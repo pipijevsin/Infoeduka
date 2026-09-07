@@ -129,7 +129,8 @@ public class MainForm : Form
             })
             .ToList();
 
-        _lecturers.DataSource = _store.Lecturers
+       _lecturers.DataSource = _store.Lecturers
+            .OrderBy(u => u.LastName)
             .Select(u => new { u.Id, u.FirstName, u.LastName, u.Email })
             .ToList();
 
